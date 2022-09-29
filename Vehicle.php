@@ -8,12 +8,11 @@ class Vehicle
     private $cavalls;
     private $antiguitat;
 
-    public function __construct($nom, $model, $km, $cavalls, $model, $antiguitat)
+    public function __construct($nom, $model, $km, $cavalls, $antiguitat)
     {
         $this->nom = $nom;
         $this->model = $model;
         $this->km = $km;
-        $this->nom = $nom;
         $this->cavalls = $cavalls;
         $this->antiguitat = $antiguitat;
     }
@@ -26,6 +25,7 @@ class Vehicle
     public function __construct2()
     {
     }
+
 }
 
 ?>
