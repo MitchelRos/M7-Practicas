@@ -21,7 +21,7 @@ class Vehicle
         $this->nom = $nom;
         $this->model = $model;
     }
-
+// OHAIO
     public function __construct2()
     {
     }
@@ -75,13 +75,13 @@ class Vehicle
     {
         $this->antiguitat = $antiguitat;
     }
-    public function __toString()
-    {
-        return "NOM: {$this->nom} MODEL: {$this->model} KM: {$this->km} CABALLS: {$this->cavalls} ANTIGUITAT: {$this->antiguitat}";
-    }
-    public function kmRecorregut()
-    {
-        return rand(1,100);
+    // public function __toString()
+    // {
+    //     return "NOM: {$this->nom} MODEL: {$this->model} KM: {$this->km} CABALLS: {$this->cavalls} ANTIGUITAT: {$this->antiguitat}";
+    // }
+    // public function kmRecorregut()
+    // {
+    //     return rand(1,100);
     }
     public function vehicleCreat()
     {
