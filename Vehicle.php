@@ -21,7 +21,7 @@ class Vehicle
         $this->nom = $nom;
         $this->model = $model;
     }
-
+// OHAIO
     public function __construct2()
     {
     }
@@ -75,6 +75,7 @@ class Vehicle
     {
         $this->antiguitat = $antiguitat;
     }
+    // Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatum inventore expedita assumenda voluptatibus. Molestias atque provident explicabo ullam nostrum sed iste, delectus voluptate fuga praesentium aliquid accusantium, corporis ratione.
     public function __toString()
     {
         return "NOM: {$this->nom} MODEL: {$this->model} KM: {$this->km} CABALLS: {$this->cavalls} ANTIGUITAT: {$this->antiguitat}";
