@@ -11,6 +11,12 @@ class Compte
         $this->diners = $diners;
     }
 
+    public function __construct2($nomUsuari)
+    {
+        $this->nomUsuari = $nomUsuari;
+
+    }
+
     public function getNomUsuari()
     {
         return $this->nomUsuari;
@@ -33,6 +39,7 @@ class Compte
     {
         $this->diners = $diners;
     }
+
 
 }
 
