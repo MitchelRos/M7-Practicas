@@ -44,8 +44,7 @@ class Compte
 }
 
 
-$bar = new Compte("Kevin", 1700);ç
-
+$bar = new Compte("Kevin", 1700);
 $treuDiners = 100;
 $dinersActuals = $bar->getDiners();
 $ingresarDiners = 500;
